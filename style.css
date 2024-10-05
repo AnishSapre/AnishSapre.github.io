@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.topinfo {
+  margin-top: 40px;
+  display: flex; /* Flex container for image and text */
+  align-items: center; /* Vertically center both image and text */
+  justify-content: center; /* Center the content horizontally */
+  padding: 20px;
+}
+
+.pfp {
+  width: 150px; /* Smaller width for the image */
+  height: 150px; /* Smaller height for the image */
+  margin-left: 50px; /* Space between image and text */
+  border-radius: 50%; /* Optional: Make the image circular */
+  display: flex;
+}
+
+.text-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5;
+}
+
+.heading {
+  font-size: 32px;
+  margin: 0;
+  text-align: center;
+}
+
+.maintext {
+  font-size: 24;
+  color: black;
+  text-align: left;
+  line-height: 1.5;
+}
+.titles {
+  margin-top: 40px;
+  display: flex; /* Flex container for image and text */
+  align-items: center; /* Vertically center both image and text */
+  justify-content: left; /* Center the content horizontally */
+}
+.projectpic {
+  width: 150px; /* Smaller width for the image */
+  height: 150px; /* Smaller height for the image */
+  margin-right: 50px; /* Space between image and text */
+  border-radius: 50%; /* Optional: Make the image circular */
+  display: flex;
+}
+.maintext-link {
+  text-decoration: none;  /* Remove the underline */
+  color: black;  /* You can change this to any color */
+  font-weight: bold;
+  margin: 0 10px;  /* Add space around the links */
+}
+
+.maintext-link:hover {
+  text-decoration: underline;  /* Add underline when hovering */
+  color: blue;  /* Change color on hover */
+}
+.maintext-link.active {
+  color: black;  /* Change this to the color you want for the active link */
+}
+.maintext-link.inactive {
+  color: gray;  /* Change this to the color you want for the active link */
+}
