@@ -1,0 +1,431 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Anish Sapre</title>
+  <meta name="author" content="Anish Sapre">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+    }
+
+    a {
+      color: #1772d0;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    a:hover {
+      color: #f09228;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+
+    .header-content {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .header-image {
+      flex-shrink: 0;
+    }
+
+    .header-image img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .name {
+      font-size: 32px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .links {
+      text-align: center;
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .links a {
+      font-weight: 600;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 30px 0;
+    }
+
+    .skills {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .skill-badge {
+      display: inline-block;
+      background: #f0f0f0;
+      padding: 8px 16px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #555;
+    }
+
+    .section-header {
+      font-size: 22px;
+      font-weight: 700;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #1772d0;
+    }
+
+    .tab-nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .tab-btn {
+      background: none;
+      border: none;
+      color: #999;
+      font-size: 22px;
+      font-weight: 700;
+      cursor: pointer;
+      padding: 0 20px;
+      transition: color 0.2s;
+    }
+
+    .tab-btn.active {
+      color: #333;
+      border-bottom: 2px solid #1772d0;
+    }
+
+    .tab-btn:hover {
+      color: #1772d0;
+    }
+
+    .item {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 30px;
+      padding: 20px;
+      background: #fafafa;
+      border-radius: 8px;
+    }
+
+    .item-image {
+      flex-shrink: 0;
+      width: 140px;
+      height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item-image img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 8px;
+    }
+
+    .item-content {
+      flex: 1;
+    }
+
+    .item-title {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+
+    .item-subtitle {
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .item-description {
+      margin-top: 10px;
+    }
+
+    .item-description ul {
+      margin-left: 20px;
+    }
+
+    .item-description li {
+      margin: 5px 0;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .footer {
+      text-align: right;
+      font-size: 12px;
+      color: #999;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .item {
+        flex-direction: column;
+      }
+
+      .item-image {
+        margin: 0 auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-content">
+        <div class="name">Anish Sapre</div>
+        <p style="text-align: center;">
+          B.E. Information Technology student at PVGCOE&T, Pune, passionate about software development, mobile applications, and leveraging AI to solve real-world problems. Currently seeking full-time software development opportunities.
+        </p>
+        <div class="links">
+          <a href="mailto:anish.sapre654@gmail.com">Email</a>
+          <span>/</span>
+          <a href="https://anishsapre.github.io" target="_blank">Website</a>
+          <span>/</span>
+          <a href="https://www.linkedin.com/in/anish-sapre" target="_blank">LinkedIn</a>
+          <span>/</span>
+          <a href="https://github.com/anishsapre" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <div class="header-image">
+        <img src="images/pfp.jpeg" alt="Anish Sapre">
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="skills">
+      <img src="images/python.png" alt="Python" title="Python" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+      <img src="images/java.png" alt="Java" title="Java" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+      <img src="images/c.png" alt="C/C++" title="C/C++" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+      <img src="images/javascript.png" alt="JavaScript" title="JavaScript" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+      <img src="images/react.png" alt="React" title="React" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+      <img src="images/nextjs.png" alt="Next.js" title="Next.js" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+      <img src="images/flutter.png" alt="Flutter" title="Flutter" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+      <img src="images/swiftui.jpg" alt="SwiftUI" title="SwiftUI" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+      <img src="images/nodejs.svg" alt="Node.js" title="Node.js" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+      <img src="images/aws.png" alt="AWS" title="AWS" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+      <img src="images/gcp.png" alt="Google Cloud" title="Google Cloud" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+      <img src="images/docker.svg" alt="Docker" title="Docker" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+      <img src="images/mysql.png" alt="MySQL" title="MySQL" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+      <img src="images/mongodb.png" alt="MongoDB" title="MongoDB" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+      <img src="images/tensorflow.png" alt="TensorFlow" title="TensorFlow" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+      <img src="images/pytorch.png" alt="PyTorch" title="PyTorch" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+      <img src="images/opencv.webp" alt="OpenCV" title="OpenCV" style="height:48px;width:auto;margin:0 10px;vertical-align:middle;">
+    </div>
+
+    <hr>
+
+    <div class="tab-nav">
+      <button class="tab-btn active" onclick="showTab('experience')">Education & Experience</button>
+      <span style="color: #ddd;">|</span>
+      <button class="tab-btn" onclick="showTab('projects')">Projects</button>
+    </div>
+
+    <div id="experience-tab" class="tab-content active">
+      <div class="item">
+        <div class="item-image">
+          <img src="images/vast.jpg" alt="Valueadd Softtech">
+        </div>
+        <div class="item-content">
+          <div class="item-title">Software Development Intern - Valueadd Softtech and Systems</div>
+          <div class="item-subtitle">Feb 2025 - May 2025 | Pune, India</div>
+          <div class="item-description">
+            <ul>
+              <li>Integrated Python and OpenCV with a Flutter-based mobile application to enable facial recognition-based employee attendance tracking.</li>
+              <li>Utilized AI automation tools including n8n workflow automation to streamline development processes.</li>
+              <li>Collaborated with web, mobile and UI/UX teams on personal projects guided by employee mentors.</li>
+              <li>Developed intuitive applications using Next.js and Flutter, managed shared UI components via a monorepo architecture to streamline development across multiple projects.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-image">
+          <img src="images/dassault.jpg" alt="Dassault Systèmes">
+        </div>
+        <div class="item-content">
+          <div class="item-title">Project Intern - Dassault Systèmes</div>
+          <div class="item-subtitle">August 2024 - May 2025 | Pune, India</div>
+          <div class="item-description">
+            <ul>
+              <li>Collaborated with final year mechanical and electrical engineering students on the development of an eVTOL (electric Vertical Take-Off and Landing) vehicle designed for agricultural monitoring and disaster recovery operations.</li>
+              <li>Used a Pixhawk Cube flight controller and Mission Planner to enable autonomous flight operations and waypoint navigation.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-image">
+          <img src="images/pvg.jpg" alt="PVGCOE&T">
+        </div>
+        <div class="item-content">
+          <div class="item-title">B.E. Information Technology Engineering - PVGCOE&T</div>
+          <div class="item-subtitle">Nov 2022 - May 2026 | GPA: 9.17/10</div>
+          <div class="item-description">
+            <p>Pune Vidyarthi Griha's College of Engineering and Technology, Pune, India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects-tab" class="tab-content">
+      <div class="item">
+        <div class="item-image">
+          <img src="images/badminton.jpg" alt="Racquet Manager">
+        </div>
+        <div class="item-content">
+          <div class="item-title">Racquet Manager</div>
+          <div class="item-subtitle">Next.js, AWS, Firebase</div>
+          <div class="item-description">
+            <ul>
+              <li>Built a web platform for managing racquet sport games (badminton, squash, table tennis) with sport-specific logic, undo feature, and cloud storage (Amazon RDS).</li>
+              <li>Implemented sport-specific service rules and scoring logic with an undo functionality using Next.js with Amazon RDS to store game information.</li>
+              <li>Integrated Firebase Authentication for seamless email and Google OAuth login, deployed on AWS Amplify.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-image">
+          <img src="images/cross.jpg" alt="Prescription Printer">
+        </div>
+        <div class="item-content">
+          <div class="item-title">Prescription Printer</div>
+          <div class="item-subtitle">Python, Excel, Data Structures</div>
+          <div class="item-description">
+            <ul>
+              <li>Developed a local EMR system in Python with autofill for 250,000+ drug names using a prefix tree (Trie), reducing lookup times by 50%, PDF export, and Excel-based record keeping.</li>
+              <li>Designed a clean, user-friendly interface that lets doctors store patient records and generate prescriptions easily, providing a clutter-free alternative to complex paid tools.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-image">
+          <img src="images/plate.jpg" alt="Weightlifting Helper">
+        </div>
+        <div class="item-content">
+          <div class="item-title">Weightlifting Helper</div>
+          <div class="item-subtitle">Flutter, Firebase</div>
+          <div class="item-description">
+            <ul>
+              <li>Created a Flutter-based fitness application to calculate weight combinations for powerlifters and weightlifters across all standard plate and barbell configurations.</li>
+              <li>Added support for lbs-kg conversion, made custom SVGs for a clean UI and integrated Firebase Authentication for secure login.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-image">
+          <img src="images/dart.png" alt="UI Component Generator">
+        </div>
+        <div class="item-content">
+          <div class="item-title">UI Component Generator</div>
+          <div class="item-subtitle">Flutter, Groq AI</div>
+          <div class="item-description">
+            <ul>
+              <li>Made a web based application to generate UI components for Flutter Projects.</li>
+              <li>Used groq AI to inject code directly into the website to automatically generate small UI components.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="item-image">
+          <img src="images/pokemon.png" alt="UI Component Generator">
+        </div>
+        <div class="item-content">
+          <div class="item-title">Pokemon</div>
+          <div class="item-subtitle">Python</div>
+          <div class="item-description">
+            <ul>
+              <li>Developed a full-featured CLI-based Pokemon battle simulator in Python with all original Pokemon species and complete type matchup system.</li>
+              <li>Implemented turn-based combat mechanics with type advantages/disadvantages, stat calculations, and move effectiveness following official Pokemon game logic.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showTab(tab) {
+      const expTab = document.getElementById('experience-tab');
+      const projTab = document.getElementById('projects-tab');
+      const buttons = document.querySelectorAll('.tab-btn');
+
+      if (tab === 'experience') {
+        expTab.classList.add('active');
+        projTab.classList.remove('active');
+        buttons[0].classList.add('active');
+        buttons[1].classList.remove('active');
+      } else {
+        expTab.classList.remove('active');
+        projTab.classList.add('active');
+        buttons[0].classList.remove('active');
+        buttons[1].classList.add('active');
+      }
+    }
+  </script>
+</body>
+</html>
